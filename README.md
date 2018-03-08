@@ -1,6 +1,6 @@
 # vending-state-machine
 
-A vending machine, implemented as a finite-state-machine, with Typescript too.
+A vending machine, implemented as a finite-state-machine, with TypeScript too.
 
 #### Installation
 
