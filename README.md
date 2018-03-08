@@ -1,13 +1,14 @@
 # vending-state-machine
-A vending machine, implemented as a finite-state-machine, with Typescript too. 
+
+A vending machine, implemented as a finite-state-machine, with Typescript too.
 
 #### Installation
+
 `git clone` this repo.
-`npm install`.
+`yarn`.
 
 #### Up and running
-`npm run build` to webpack things.
-`npm run test` to run Jest tests.
-`npm start` to run the webpack bundle.
 
-
+`yarn build` to webpack things. <br />
+`yarn test` to run Jest tests. <br />
+`yarn start` to run the webpack bundle.
