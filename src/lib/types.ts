@@ -1,4 +1,4 @@
-import { STATE, STATES, STARTING_STATE, transitionTo } from "./asm";
+import { STATES, STARTING_STATE } from "./asm";
 
 type CoinName = "Twoonie" | "Loonie" | "Quarter" | "Dime" | "Nickel";
 type ItemName = "Crab Juice" | "Reese's" | "Tesla";
