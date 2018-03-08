@@ -1,0 +1,8 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:latest"],
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": [],
+  "exclude": ["node_modules"]
+}

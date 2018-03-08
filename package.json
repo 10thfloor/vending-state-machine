@@ -1,0 +1,38 @@
+{
+  "name": "vending-state-machine",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "@babel/preset-typescript": "^7.0.0-beta.32",
+    "@types/jest": "^22.2.0",
+    "babel-loader": "8.0.0-beta.0",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.6.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
